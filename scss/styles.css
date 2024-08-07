@@ -14,7 +14,7 @@ html, body {
 .flex {
   display: flex;
   flex: 1;
-  gap: 20px;
+  gap: 10px;
 }
 
 img {
@@ -30,7 +30,7 @@ img {
 
 .btn {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 80px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -59,6 +59,36 @@ img {
   text-align: left;
   margin: 3rem 0 1rem 0;
   color: #fff;
+}
+
+#showcase .showcase-container {
+  background: url("/img/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+#showcase .showcase-container .showcase-text {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 12rem;
+}
+#showcase .showcase-container .showcase-text p {
+  width: 25%;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+#showcase .showcase-container .showcase-text .buttons {
+  display: flex;
+  flex: 1;
+  gap: 2px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#movies .container .row-1 .movies-flex-1 img {
+  width: 16%;
 }
 
 #footer {
