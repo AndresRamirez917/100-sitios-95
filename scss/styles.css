@@ -74,6 +74,7 @@ img {
   color: #FFF;
   font-weight: bolder;
 }
+
 #showcase {
   margin-top: 2rem;
 }
@@ -103,8 +104,8 @@ img {
   width: fit-content;
 }
 
-#movies .container .row-1 .movies-flex-1 img {
-  width: 16%;
+#movies .container .row-1 .movies-flex-1 div img {
+  width: 100%;
 }
 
 #footer {

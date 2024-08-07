@@ -1,1 +1,30 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#showcase .showcase-container .showcase-text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+#showcase .showcase-container .showcase-text p {
+  width: 100%;
+}
+#showcase .showcase-container .showcase-text .buttons {
+  display: block;
+  margin: 0 auto;
+}
+#showcase .showcase-container .showcase-text .buttons a {
+  margin-bottom: 1rem;
+}
+
+#movies .container .row-1 .subtitle {
+  text-align: center;
+  font-size: 2rem;
+}
+#movies .container .row-1 .movies-flex-1 {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */

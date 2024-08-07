@@ -1,0 +1,45 @@
+//mainheader
+#mainheader {
+    .navbar {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+//showcase}
+#showcase {
+    .showcase-container {
+        .showcase-text {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 2rem;
+            p {
+                width: 100%;
+            }
+            .buttons {
+                display: block;
+                margin: 0 auto;
+                a {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
+//movies
+#movies {
+    .container {
+        .row-1 {
+            .subtitle {
+                text-align: center;
+                font-size: 2rem;
+            }
+            .movies-flex-1 {
+                display: block;
+            }
+        }
+    }
+}

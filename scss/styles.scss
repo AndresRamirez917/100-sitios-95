@@ -78,9 +78,6 @@ img {
            color: #FFF;
            font-weight: bolder;
         }
-        .container {
-         
-        }
     }
  
 }
@@ -120,8 +117,10 @@ img {
     .container {
         .row-1 {
             .movies-flex-1 {
-                img {
-                    width: 16%;
+                div {
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
