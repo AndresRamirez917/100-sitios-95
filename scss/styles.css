@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 html, body {
   font-family: "Monstserrat", sans-serif;
   scroll-behavior: smooth;
@@ -61,6 +66,17 @@ img {
   color: #fff;
 }
 
+#mainheader .navbar {
+  margin-top: 1rem;
+}
+#mainheader .navbar .logo {
+  font-size: 2.5rem;
+  color: #FFF;
+  font-weight: bolder;
+}
+#showcase {
+  margin-top: 2rem;
+}
 #showcase .showcase-container {
   background: url("/img/showcase.jpg");
   background-position: center;
